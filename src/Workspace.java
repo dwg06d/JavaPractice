@@ -10,7 +10,7 @@ public class Workspace {
         carInventory.put("Chevy", "Tahoe");
         carInventory.put("Tesla", "Roadster");
         Scanner carType = new Scanner(System.in);
-        System.out.println("What car model you like to see?");
+        System.out.println("What car model would you like to see?");
         String myCar = carType.nextLine();
         if (carInventory.containsKey(myCar)) {
 
